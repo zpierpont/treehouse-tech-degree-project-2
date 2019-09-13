@@ -2,12 +2,17 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-body {
-    background: rgb(238, 229, 229);
+
+
+footer {
+    margin: auto;
+    padding: auto;
 }
 
 h1 {
     text-align: center;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 nav li {
@@ -22,6 +27,7 @@ nav {
 }
 
 ul {
+    padding: 0;
     list-style-type: none;
     margin: auto;
     text-align: center;
@@ -38,6 +44,22 @@ a {
  
 p {
     text-align: center;
+}
+
+hr {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-weight: 2;
+}
+
+header,
+footer,
+.contact {
+    background: rgb(247, 247, 245);
+}
+
+.portfolio {
+    background: #fff;
 }
 
 p,
@@ -61,6 +83,21 @@ img {
     height: 90%;
 }
 
+article,
+.contact {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+article p,
+.contact p {
+    width: 90%;
+    margin: auto;
+}
+
+.contact-paragraph {
+    padding-bottom: 40px;
+}
 .profile-image {
     width: 70%;
     height: 70%;
@@ -73,6 +110,18 @@ h3 {
 .portfolio {
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+.footer-button {
+    margin-right: 40px;
+    float: right;
+    overflow: auto;
+}
+
+.footer-studentname {
+    margin-left: 40px;
+    float: left;
+    overflow: auto;
 }
 
 

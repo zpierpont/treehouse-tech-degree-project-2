@@ -5,28 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 class="student-name">Zachary Pierpont</h1>
-        <nav>
-            <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <header>
+            <h1 class="student-name">Zachary Pierpont</h1>
+            <nav>
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#portfolio-content">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
 
-        <img class="profile-image" src="images/responsive-layout-profile.png" alt="Profile Picture">
-        <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
-    </header>
+            <img class="profile-image" src="images/responsive-layout-profile.png" alt="Profile Picture">
+            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+        </header>
 
     <main>
         <div class="wrapper">
-            <div class="portfolio" id="portfolio">
+            <div class="portfolio" id="portfolio-content">
                 <h3>Portfolio</h2>
                 <article> 
                     <img src="images/portfolio-1.png" alt="marketing page sample">
@@ -69,10 +70,18 @@
 
     <div class="contact" id="contact">
         <h3>Contact</h3>
-        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p class="contact-paragraph">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <span>
+            <p>Phone <strong>+1 (111) 555-1234</strong></p>
+            <p>Email <strong>zachary@pierpontwebdesign.com</strong></p>
+        </span>
+        
     </div>
         
     <footer>
+        <hr>
+        <p class="footer-studentname"><strong>Zachary Pierpont</strong></p>
+        <p class="footer-button"><a href="#top"><strong>BACK TO TOP</strong></a></p>
 
     </footer>
    
