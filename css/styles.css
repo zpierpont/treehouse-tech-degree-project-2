@@ -2,11 +2,15 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+header {
+    padding: 15px;
+}
 
 
 footer {
     margin: auto;
-    padding: auto;
+    padding: 5px;
+    overflow: auto;
 }
 
 h1 {
@@ -49,13 +53,13 @@ p {
 hr {
     margin-right: 5%;
     margin-left: 5%;
-    font-weight: 2;
+    border-color: black;
 }
 
 header,
 footer,
 .contact {
-    background: rgb(247, 247, 245);
+    background: rgb(177, 59, 79);
 }
 
 .portfolio {
@@ -83,12 +87,21 @@ img {
     height: 90%;
 }
 
+header img {
+    padding: 30px 30px 15px 30px;
+}
+
+header p {
+    padding: 15px 30px 30px 30px;
+}
+
 article,
 .contact {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
 }
 
+header p,
 article p,
 .contact p {
     width: 90%;
@@ -124,8 +137,155 @@ h3 {
     overflow: auto;
 }
 
+.footer-nav {
+    display: none;
+}
 
 /* media querries */
 
+/* styling for tablets */
+ @media (min-width: 768px) {
+    ul li {
+        background: none;
+        margin: 1em;
+        padding: 1em;
+        display: inline-block;
+        
+    }
+    
+    nav {
+        margin-left: auto;
+        margin-right: auto;   
+        
+    }
+    
+    ul {
+        padding: 0;
+        list-style-type: none;
+        margin: auto;
+        text-align: center;
+        
+    }
+    
+    a {
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        
+      }
 
+
+     .header-p {
+        float: left;
+        width: 40%;
+        padding-bottom: 50px;
+        
+     }
+
+     .profile-image {
+         float: right;
+         width: 40%;  
+     }
+
+    article {
+        width: 50%;
+        
+    }
+    .marketing-page {
+        float: left;
+    }
+
+    .search-page {
+        float: right;
+    }
+
+    .travel-app {
+        float: left;
+    }
+
+    .map-of-favorite-spots {
+        float: right;
+    }
+
+    .photo-gallery {
+        float: left;
+    }
+
+    .calculator {
+        float: right;
+    }
+
+    .footer-nav {
+        display: inline-block;
+        float: right;
+    }
+
+    .footer-button {
+        display: none;
+    }
+    
+  
+ }
+
+/* styling for desktops */
+ @media (min-width: 1024px) {
+
+    .student-name {
+        float: left;
+        padding-left: 3%
+    }
+
+    .header-p {
+        text-align: left;
+    }
+
+    nav {
+        float: right;
+    }
+
+    .profile-img {
+        float: right; 
+        display: inline-block;
+    }
+
+    article {
+        width: 33.3%;
+        
+    }
+    .marketing-page {
+        float: left;
+    }
+
+    .search-page {
+        float: right;
+    }
+
+    .travel-app {
+        float: right;
+    }
+
+    .map-of-favorite-spots {
+        float: left;
+    }
+
+    .photo-gallery {
+        float: right;
+    }
+
+    .calculator {
+        float: right;
+    }
+
+
+ }
+
+ .clearfix:before,
+.clearfix:after {
+  content: ".";    
+  display: block;    
+  height: 0;    
+  overflow: hidden;        
+}
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1 ;}
 

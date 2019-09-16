@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
-<body>
-        <header>
+<body class="clearfix">
+        <header class="clearfix">
             <h1 class="student-name">Zachary Pierpont</h1>
-            <nav>
+            <nav class="clearfix">
                 <ul>
                     <li><a href="#top">Home</a></li>
                     <li><a href="#portfolio-content">Portfolio</a></li>
@@ -22,44 +22,44 @@
             </nav>
 
             <img class="profile-image" src="images/responsive-layout-profile.png" alt="Profile Picture">
-            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            <p class="header-p">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
         </header>
 
-    <main>
+    <main class="clearfix">
         <div class="wrapper">
             <div class="portfolio" id="portfolio-content">
-                <h3>Portfolio</h2>
-                <article> 
+                <h3>Portfolio</h3>
+                <article class="marketing-page"> 
                     <img src="images/portfolio-1.png" alt="marketing page sample">
                     <h3>Marketing Page</h3>
                     <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
                 </article>
 
-                <article>
+                <article class="search-page">
                     <img src="images/portfolio-2.png" alt="search page preview">
                     <h3>Search Page</h3>
                     <p>This project searches through a specific database to find information that the user is trying to look up.</p>
                 </article>
 
-                <article>
+                <article class="travel-app">
                     <img src="images/portfolio-3.png" alt="travel app preview">
                     <h3>Travel App</h3>
                     <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
                 </article>
 
-                <article>
+                <article class="map-of-favorite-spots">
                     <img src="images/portfolio-4.png" alt="map of favorite spots preview.">
                     <h3>Map of Favorite Spots</h3>
                     <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it yourself walking tour.</p>
                 </article>
 
-                <article>
+                <article class="photo-gallery">
                     <img src="images/portfolio-5.png" alt="photo gallery preview">
                     <h3>Photo Gallery</h3>
                     <p>This project shows pictures from a recent trup to the viewer and allows them to easily navigate through photos.</p>
                 </article>
 
-                <article>
+                <article class="calculator">
                     <img src="images/portfolio-6.png" alt="calculator preview">
                     <h3>Calculator</h3>
                     <p>Someone can enter in the numbers they want and oress the big blue button and get the result.</p>
@@ -71,17 +71,22 @@
     <div class="contact" id="contact">
         <h3>Contact</h3>
         <p class="contact-paragraph">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-        <span>
-            <p>Phone <strong>+1 (111) 555-1234</strong></p>
-            <p>Email <strong>zachary@pierpontwebdesign.com</strong></p>
-        </span>
+        <p>Phone <strong>+1 (111) 555-1234</strong></p>
+        <p>Email <strong>zachary@pierpontwebdesign.com</strong></p>
+        
         
     </div>
         
-    <footer>
+    <footer class="clearfix">
         <hr>
         <p class="footer-studentname"><strong>Zachary Pierpont</strong></p>
         <p class="footer-button"><a href="#top"><strong>BACK TO TOP</strong></a></p>
+        <ul class="footer-nav">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#portfolio-content">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
+     
 
     </footer>
    
