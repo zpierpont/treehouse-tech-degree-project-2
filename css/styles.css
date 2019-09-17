@@ -114,6 +114,7 @@ article p,
 .profile-image {
     width: 70%;
     height: 70%;
+    
 }
 
 h3 {
@@ -132,13 +133,32 @@ h3 {
 }
 
 .footer-studentname {
-    margin-left: 40px;
+    margin-left: 5%;
     float: left;
     overflow: auto;
 }
 
 .footer-nav {
     display: none;
+}
+
+.links {
+    color: blue;
+    text-transform: none;
+
+}
+
+.skills-img {
+    width: 30%;
+    height: 30%;
+}
+
+.skills {
+    margin: 10em;
+}
+
+.skills p {
+    color: rgb(233, 18, 136);
 }
 
 /* media querries */
@@ -218,6 +238,7 @@ h3 {
     .footer-nav {
         display: inline-block;
         float: right;
+        margin-right: 5%;
     }
 
     .footer-button {
@@ -245,7 +266,7 @@ h3 {
 
     .profile-img {
         float: right; 
-        display: inline-block;
+        display: block;
     }
 
     article {
