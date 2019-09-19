@@ -10,7 +10,6 @@ header {
 footer {
     margin: auto;
     padding: 5px;
-    overflow: auto;
 }
 
 h1 {
@@ -133,14 +132,15 @@ h3 {
     vertical-align: center;
     margin-right: 5%;
     float: right;
-    overflow: auto;
+    font-size: 14px;
 }
 
 .footer-studentname {
     vertical-align: center;
     margin-left: 5%;
     float: left;
-    overflow: auto;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 .footer-nav {
@@ -260,9 +260,9 @@ h3 {
         display: inline-block;
         margin-top: 3%;
         padding: 0;
+        line-height: 2.2;
     }
 
-    
   
  }
 
@@ -272,7 +272,6 @@ h3 {
     * {
         max-width: 1400px;
         margin: 0 auto;
-        overflow: auto;
     }
 
     .student-name {
@@ -323,7 +322,7 @@ h3 {
     }
 
     .footer-studentname {
-        
+        line-height: 1.6;
     }
  }
 
