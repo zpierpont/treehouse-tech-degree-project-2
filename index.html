@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body class="clearfix">
         <header class="clearfix">
@@ -30,7 +30,7 @@
 
     <main class="clearfix">
         <div class="wrapper clearfix">
-            <div class="portfolio" id="portfolio-content">
+            <div class="portfolio clearfix" id="portfolio-content">
                 <h3>Portfolio</h3>
                 <article class="marketing-page"> 
                     <img src="images/portfolio-1.png" alt="marketing page sample">
@@ -69,12 +69,12 @@
                 </article>
             </div> <!-- Portfolio div-->
 
-            <div class="skills">
+            <div class="skills clearfix" id="skills">
                 <h3>Skills</h3>
                 <p>I have been studying HTML and CSS on <a class="links" href=https://teamtreehouse.com>Treehouse</a></p>
                 <p>Treehouse offers a Tech Degree program where they teach Front End Web Development, I'm currently enrolled and am learning a lot about how to build websites just like this one!</p>
                 <p>This website is my second project so far in the Tech Degree program. In the next project, I will be diving into JavaScript!</p>
-                <img id="skills" src="images/treehouse.png" alt="treehouse.com" class="skills-img">
+                <img src="images/treehouse.png" alt="treehouse.com" class="skills-img">
             </div> <!--Skills div-->
 
         </div> <!-- main content wrapper div -->
@@ -93,7 +93,7 @@
         
     <footer class="clearfix">
         <hr>
-        <p class="footer-studentname"><strong>Zachary Pierpont</strong></p>
+        <h3 class="footer-studentname"><strong>Zachary Pierpont</strong></h3>
         <p class="footer-button"><a href="#top"><strong>BACK TO TOP</strong></a></p>
         <ul class="footer-nav">
                 <li><a href="#top">Home</a></li>

@@ -62,10 +62,6 @@ footer,
     background: rgb(177, 59, 79);
 }
 
-.portfolio {
-    background: #fff;
-}
-
 p,
 h3,
 h2,
@@ -93,23 +89,23 @@ header img {
 
 header p {
     padding: 15px 30px 30px 30px;
+    max-width: 290px;
 }
 
 article,
 .contact {
     padding-top: 2.5em;
-    padding-bottom: 2.5em;
 }
 
 .skills {
-    padding-bottom: 2.5em;
+    padding-bottom: 5em;
 }
 
 header p,
 article p,
 .contact p,
 .skills p {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -130,15 +126,18 @@ h3 {
 .portfolio {
     margin-top: 5em;
     margin-bottom: 5em;
+    background: #fff;
 }
 
 .footer-button {
-    margin-right: 40px;
+    vertical-align: center;
+    margin-right: 5%;
     float: right;
     overflow: auto;
 }
 
 .footer-studentname {
+    vertical-align: center;
     margin-left: 5%;
     float: left;
     overflow: auto;
@@ -164,7 +163,7 @@ h3 {
 }
 
 #skills {
-    padding-top: 2.5em;
+    
 }
 
 /* media querries */
@@ -181,8 +180,7 @@ h3 {
     
     nav {
         margin-left: auto;
-        margin-right: auto;   
-        
+        margin-right: auto;
     }
     
     ul {
@@ -219,7 +217,6 @@ h3 {
 
     article {
         width: 50%;
-        
     }
     .marketing-page {
         float: left;
@@ -248,12 +245,23 @@ h3 {
     .footer-nav {
         display: inline-block;
         float: right;
-        margin-right: 5%;
+        margin-right: 2%;
     }
 
     .footer-button {
         display: none;
     }
+
+    .portfolio article {
+        min-height: 424px;
+    }
+
+    .footer-studentname {
+        display: inline-block;
+        margin-top: 3%;
+        padding: 0;
+    }
+
     
   
  }
@@ -312,6 +320,10 @@ h3 {
 
     .calculator {
         float: right;
+    }
+
+    .footer-studentname {
+        
     }
  }
 
